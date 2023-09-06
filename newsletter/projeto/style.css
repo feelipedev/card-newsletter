@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../medias/Assets/Background.png);
+    background-image: url(../imagens/Background.png);
 }
 
 .container {
@@ -33,7 +33,7 @@ body {
     width: 100%;
     height: 40%;
     background-color: #2355F2;
-    background-image: url(../medias/Assets/Pattern.png);
+    background-image: url(../imagens/Pattern.png);
     border-radius: 10px 10px 0 0;
 }
 
@@ -143,7 +143,7 @@ button:hover {
         width: 100%;
         height: 40%;
         background-color: #2355F2;
-        background-image: url(../medias/Assets/Pattern.png);
+        background-image: url(../imagens/Pattern.png);
         border-radius: 0;
     }
 }
@@ -167,7 +167,7 @@ button:hover {
         width: 100%;
         height: 40%;
         background-color: #2355F2;
-        background-image: url(../medias/Assets/Pattern.png);
+        background-image: url(../imagens/Pattern.png);
         border-radius: 0;
     }
 }
@@ -193,7 +193,7 @@ button:hover {
         width: 100%;
         height: 40%;
         background-color: #2355F2;
-        background-image: url(../medias/Assets/Pattern.png);
+        background-image: url(../imagens/Pattern.png);
         border-radius: 10px 10px 0 0;
     }
 }
