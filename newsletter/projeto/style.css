@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../medias/Assets/Background.png);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: 80vh;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.background-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    background-color: #2355F2;
+    background-image: url(../medias/Assets/Pattern.png);
+    border-radius: 10px 10px 0 0;
+}
+
+.background-top h2 {
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#title {
+    color: gray;
+    width: 80%;
+    font-size: 8px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 10%;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+}
+
+.caixa-email {
+    margin-right: 10px;
+    height: 100%;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px rgba(128, 128, 128, 0.315) solid;
+    padding-left: 10px;
+}
+
+
+button {
+    color: white;
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    background-color: #2355F2;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #102568;
+}
+
+.txt {
+    margin-top: 2%;
+    font-size: 12px;
+    margin-left: 2%;
+    width: 95%;
+    color: gray;
+    display: flex;
+    align-items: flex-start;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.creator-img {
+    margin-right: 10px;
+}
+
+.creator-text {
+    font-size: 10px;
+}
+
+.end {
+    margin-top: 2%;
+    width: 80%;
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+}
+
+@media (min-width:100px) and (max-width:319px) {
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        border-radius: 0;
+    }
+
+    .background-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 40%;
+        background-color: #2355F2;
+        background-image: url(../medias/Assets/Pattern.png);
+        border-radius: 0;
+    }
+}
+
+@media (min-width:320px) and (max-width:482px) {
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        border-radius: 0;
+    }
+
+    .background-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 40%;
+        background-color: #2355F2;
+        background-image: url(../medias/Assets/Pattern.png);
+        border-radius: 0;
+    }
+}
+
+
+@media (min-width:481px) and (max-width:768px) {
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 55vw;
+        height: 80vh;
+        background-color: white;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .background-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 40%;
+        background-color: #2355F2;
+        background-image: url(../medias/Assets/Pattern.png);
+        border-radius: 10px 10px 0 0;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50vw;
+        height: 80vh;
+        border-radius: 10px;
+        background-color: white;
+    }
+}
